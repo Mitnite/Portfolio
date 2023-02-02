@@ -1,12 +1,43 @@
 .App {
-  display: flex;
-  text-align: center;
-  justify-content: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
-.Header{
-  width: 1920px;
-  height: 549px;
-  left: 1px;
-  top: 1px;
-  background: linear-gradient(180deg, rgba(58, 51, 48, 0) 0%, rgba(58, 51, 48, 0.31558) 0.01%, rgba(58, 51, 48, 0.581335) 0.02%, rgba(58, 51, 48, 0.68) 45.86%, rgba(58, 51, 48, 0.68) 64.09%), url("./img/Banner-Platinum1.jpg") center center/cover no-repeat;
+
+.ContainerHeader {
+    display: flex;
+    justify-content: center;
+    width: 1920px;
+    height: 549px;
+    left: 1px;
+    top: 1px;
+    background: linear-gradient(180deg, rgba(58, 51, 48, 0) 0%, rgba(58, 51, 48, 0.31558) 0.01%, rgba(58, 51, 48, 0.581335) 0.02%, rgba(58, 51, 48, 0.68) 45.86%, rgba(58, 51, 48, 0.68) 64.09%), url("./img/Banner-Platinum1.jpg") center center/cover no-repeat;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    width: 1050px;
+}
+
+.Logo {
+    width: 137px;
+    height: 181px;
+    background-image: url("./img/amir.png");
+    margin-top: 32px;
+}
+
+.Navigation {
+    display: flex;
+    justify-content: flex-end;
+    vertical-align: center;
+}
+
+.Bucket {
+    width: 49px;
+    height: 49px;
+    margin: 32px 0 0 auto;
+
+
+    background-image: url("./img/shopping-cart.png");
 }

@@ -4,7 +4,7 @@ import "./ButtonNavigation.css"
 const ButtonNavigation = props => {
   return (
       <div className={"ButtonNavigation"}>
-        <button className={"Button"}>{props.text}</button>
+        <button className={"Button"}><a href="#">{props.text}</a></button>
       </div>
   )
 }

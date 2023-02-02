@@ -1,17 +1,8 @@
 .ButtonNavigation{
-    margin-top: 85px;
     display: flex;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
     align-items: center;
     text-align: center;
-
-
-
+    margin: 85px 0 0 28px;
 }
 
 .Button{
@@ -22,5 +13,19 @@
     background: #3A3330;
     border: 1px solid #EF6F2E;
     border-radius: 30px;
+}
 
+a:link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    outline: none;
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
 }
