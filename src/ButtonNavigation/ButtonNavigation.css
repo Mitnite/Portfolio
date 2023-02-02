@@ -1,0 +1,26 @@
+.ButtonNavigation{
+    margin-top: 85px;
+    display: flex;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+
+.Button{
+    width: 109px;
+    height: 26px;
+    color: #FFFFFF;
+
+    background: #3A3330;
+    border: 1px solid #EF6F2E;
+    border-radius: 30px;
+
+}
