@@ -1,38 +1,42 @@
-import React, {Component} from "react";
+import React from "react";
 import "./Catalogue.css"
 import CatalogueItem from "./CatalogueItem/CatalogueItem";
 import bucket from "../img/shopping-cart.png"
-import amir from "../img/amir 2.7.png"
+import polygon from "../img/Polygon.svg"
 
-export default class Catalogue extends Component {
+const Catalogue = props => {
+  return (
 
-  state = {
-    cooking_surfaces: [
-      {id: 0, name: "Варочная поверхность PG6040 W RSTB", price: 99999, url: amir},
-      {id: 0, name: "Варочная поверхность PG6040 W RSTB", price: 99999, url: amir},
-      {id: 0, name: "Варочная поверхность PG6040 W RSTB", price: 99999, url: amir},
-      {id: 0, name: "Варочная поверхность PG6040 W RSTB", price: 99999, url: amir},
-    ]
-  }
-
-
-  render() {
-    return (
-        <div className={"ContainerCatalogue"}>
-          <div className={"Catalogue"}>
-            {this.state.cooking_surfaces.map((a, index) => {
-              return (
-                  <CatalogueItem
-                      key={index}
-                      name={a.name}
-                      price={a.price}
-                      url={a.url}
-                      bucket={bucket}
-                  />
-              )
-            })}
-          </div>
+      <div className={"ContainerCatalogue"}>
+        <div onClick={props.onClick} className={"Button"}>
+          <p>Популярное</p>
+          <img src={polygon} alt=""/>
         </div>
-    )
-  }
+
+        <div className={"Catalogue"}>
+          {props.array.map((a, index) => {
+            return (
+                props.checked ?
+                <CatalogueItem
+                    key={index}
+                    name={a.name}
+                    price={a.price}
+                    url={a.url}
+                    bucket={bucket}
+                />
+                    : a.show ?
+                        <CatalogueItem
+                            key={index}
+                            name={a.name}
+                            price={a.price}
+                            url={a.url}
+                            bucket={bucket}
+                        />
+                    : null
+            )
+          })}
+        </div>
+      </div>
+  )
 }
+export default Catalogue
