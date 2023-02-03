@@ -1,29 +1,22 @@
 import './App.css';
-import ButtonNavigation from "./ButtonNavigation/ButtonNavigation";
+import Header from "./Header/Header";
+import Catalogue from "./Catalogue/Catalogue";
 
 function App() {
   return (
       <div className="App">
 
-        <header className={"ContainerHeader"}>
+        <header>
 
-          <div className={"Header"}>
-            <div className={"Logo"}/>
-            <div>
-              <div className={"Navigation"}>
-                <ButtonNavigation text={"Главная"}/>
-                <ButtonNavigation text={"Каталог"}/>
-                <ButtonNavigation text={"О нас"}/>
-                <ButtonNavigation text={"Где купить"}/>
-                <ButtonNavigation text={"Контакты"}/>
-                <ButtonNavigation text={"Партнерам"}/>
-              </div>
-              <div className={"Bucket"}/>
-            </div>
+          <Header />
+
+          <div className={"HeaderFooter"}>
+            <p>АМИР - производитель бытовой электроники с вниманием к каждой детали </p>
           </div>
 
-
         </header>
+
+        <Catalogue />
 
       </div>
   );

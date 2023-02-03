@@ -1,0 +1,36 @@
+.ContainerHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    width: 1050px;
+}
+
+.Logo {
+    width: 137px;
+    height: 181px;
+    background-image: url("../img/amir.png");
+    margin-top: 32px;
+}
+
+.Navigation {
+    display: flex;
+    justify-content: flex-end;
+    vertical-align: center;
+}
+
+.Bucket {
+    width: 49px;
+    height: 49px;
+    margin: 32px 0 0 auto;
+    background-image: url("../img/shopping-cart.png");
+}
+
+.Menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}

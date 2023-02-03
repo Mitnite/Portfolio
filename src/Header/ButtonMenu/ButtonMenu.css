@@ -1,0 +1,24 @@
+.ButtonMenu{
+    text-align: center;
+    margin: 28px 0 0 auto;
+z-index: 10;
+}
+
+.ButtonMenu .Button{
+    width: 265px;
+    height: 38px;
+
+
+    background: #3A3330;
+    border: 1px solid #3A3330;
+    border-radius: 10px;
+
+    font-family: 'Scada';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+
+    color: #FFFFFF;
+}

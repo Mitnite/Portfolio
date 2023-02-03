@@ -1,43 +1,42 @@
-.App {
-    display: flex;
-    text-align: center;
-    justify-content: center;
+
+.App{
+    max-width: 1920px;
+    display: block;
+    margin: 0 auto;
+    flex-grow: 1;
+
 }
 
-.ContainerHeader {
-    display: flex;
-    justify-content: center;
-    width: 1920px;
-    height: 549px;
-    left: 1px;
-    top: 1px;
+header{
     background: linear-gradient(180deg, rgba(58, 51, 48, 0) 0%, rgba(58, 51, 48, 0.31558) 0.01%, rgba(58, 51, 48, 0.581335) 0.02%, rgba(58, 51, 48, 0.68) 45.86%, rgba(58, 51, 48, 0.68) 64.09%), url("./img/Banner-Platinum1.jpg") center center/cover no-repeat;
+    width: 100%;
+    height: 549px;
+
 }
 
-.Header {
+
+
+.HeaderFooter{
+    position: relative;
+    width: 100%;
+    height: 81px;
+    top: -75px;
+    background: rgba(191, 215, 62, 0.1);
+    z-index: 0;
+}
+.HeaderFooter p{
+    width: 389px;
+    height: 81px;
+    margin: 0 0 0 15%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
     display: flex;
-    justify-content: space-between;
-    width: 1050px;
-}
+    align-items: center;
+    text-align: center;
 
-.Logo {
-    width: 137px;
-    height: 181px;
-    background-image: url("./img/amir.png");
-    margin-top: 32px;
-}
-
-.Navigation {
-    display: flex;
-    justify-content: flex-end;
-    vertical-align: center;
-}
-
-.Bucket {
-    width: 49px;
-    height: 49px;
-    margin: 32px 0 0 auto;
-
-
-    background-image: url("./img/shopping-cart.png");
+    color: #FFFFFF;
 }
