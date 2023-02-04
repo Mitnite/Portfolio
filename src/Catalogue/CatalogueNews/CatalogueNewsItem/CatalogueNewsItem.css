@@ -1,0 +1,8 @@
+.CatalogueNewsItem{
+    display: flex;
+    justify-content: space-between;
+    width: 493px;
+    height: 264px;
+    background: #2F2D2E;
+    border-radius: 30px;
+}
