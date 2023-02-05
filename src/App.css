@@ -4,14 +4,12 @@
     display: block;
     margin: 0 auto;
     flex-grow: 1;
-
 }
 
 header {
     background: linear-gradient(180deg, rgba(58, 51, 48, 0) 0%, rgba(58, 51, 48, 0.31558) 0.01%, rgba(58, 51, 48, 0.581335) 0.02%, rgba(58, 51, 48, 0.68) 45.86%, rgba(58, 51, 48, 0.68) 64.09%), url("./img/Banner-Platinum1.jpg") center center/cover no-repeat;
     width: 100%;
     height: 549px;
-
 }
 
 
@@ -29,7 +27,6 @@ header {
     height: 81px;
     margin: 0 0 0 15%;
 
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -82,3 +79,12 @@ display: block;
 
     color: #ACA188;
 }
+
+@media (max-width: 1100px) {
+
+    .App {
+        max-width: 1000px;
+    }
+
+
+    }
