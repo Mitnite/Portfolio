@@ -5,4 +5,42 @@
     height: 264px;
     background: #2F2D2E;
     border-radius: 30px;
+    padding-left: 10px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14);
+    transition: border, box-shadow .3s;
+}
+
+.CatalogueNewsItem:hover {
+    border: 1px solid #aaa;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, .25);
+}
+
+.CatalogueNewsItem .Title{
+    width: 255px;
+    height: 78px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 25px 0;
+    color: #D1C8B3;
+}
+.CatalogueNewsItem  .Description{
+    width: 244px;
+    height: 115px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.CatalogueNewsItem .Polygon{
+    display: block;
+    padding-right: 10px;
+    margin: 0 0 0 auto;
 }

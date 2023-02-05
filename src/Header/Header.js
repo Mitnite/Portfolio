@@ -24,14 +24,12 @@ const Header = props => {
 
             <div className={"Bucket"}/>
 
-            <div className={"Menu"}>
+            <div className={"ContainerMenu"}>
               {props.menu.map((name, index) => {
                 return (
                     <ButtonMenu
                         key={index}
                         button={name}
-  /*                      text={name.name}
-                        clicked={name.clicked}*/
                         onButtonClick={props.onButtonClick}
                     />
                 )

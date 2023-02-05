@@ -1,0 +1,29 @@
+.MenuItem{
+    width: 224px;
+    height: 203px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14);
+    transition: border, box-shadow .3s;
+}
+
+.MenuItem:hover {
+    cursor: pointer;
+    border: 1px solid #EF6F2E;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, .25);
+}
+
+.MenuItem .Title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #D1C8B3;
+
+}

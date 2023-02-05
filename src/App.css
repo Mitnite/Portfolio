@@ -1,5 +1,5 @@
 
-.App{
+.App {
     max-width: 1920px;
     display: block;
     margin: 0 auto;
@@ -7,7 +7,7 @@
 
 }
 
-header{
+header {
     background: linear-gradient(180deg, rgba(58, 51, 48, 0) 0%, rgba(58, 51, 48, 0.31558) 0.01%, rgba(58, 51, 48, 0.581335) 0.02%, rgba(58, 51, 48, 0.68) 45.86%, rgba(58, 51, 48, 0.68) 64.09%), url("./img/Banner-Platinum1.jpg") center center/cover no-repeat;
     width: 100%;
     height: 549px;
@@ -15,8 +15,7 @@ header{
 }
 
 
-
-.HeaderFooter{
+.HeaderFooter {
     position: relative;
     width: 100%;
     height: 81px;
@@ -24,7 +23,8 @@ header{
     background: rgba(191, 215, 62, 0.1);
     z-index: 0;
 }
-.HeaderFooter p{
+
+.HeaderFooter p {
     width: 389px;
     height: 81px;
     margin: 0 0 0 15%;
@@ -46,4 +46,39 @@ header{
     background: #3A3330;
     display: flex;
     justify-content: center;
+}
+
+.footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .Title {
+    width: 523px;
+    height: 34px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+display: block;
+    margin: 0 auto;
+
+    color: #ACA188;
+}
+
+.footer .Description {
+    width: 1031px;
+    height: 114px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ACA188;
 }

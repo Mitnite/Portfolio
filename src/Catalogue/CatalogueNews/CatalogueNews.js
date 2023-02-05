@@ -13,6 +13,12 @@ const CatalogueNews = props => {
           url={amir}
           arrow={props.arrow}
         />
+        <CatalogueNewsItem
+            title={"Серия “Вдохновляющее ретро”"}
+            text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut "}
+            url={amir}
+            arrow={props.arrow}
+        />
       </div>
   )
 }

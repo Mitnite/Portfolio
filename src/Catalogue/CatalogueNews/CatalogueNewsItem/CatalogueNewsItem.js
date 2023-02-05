@@ -7,7 +7,7 @@ const CatalogueNewsItem = props => {
         <div className={"Text"}>
           <h3 className={"Title"}>{props.title}</h3>
           <p className={"Description"}>{props.text}</p>
-          <img src={props.arrow} alt="Polygon"/>
+          <img src={props.arrow} alt="Polygon" className={"Polygon"}/>
         </div>
         <img src={props.url} alt="News"/>
       </div>

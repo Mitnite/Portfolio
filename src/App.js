@@ -3,6 +3,7 @@ import Header from "./Header/Header";
 import Catalogue from "./Catalogue/Catalogue";
 import {Component} from "react";
 import amir from "./img/amir 2.7.png"
+import Menu from "./Menu/Menu";
 
 class App extends Component {
 
@@ -102,16 +103,32 @@ class App extends Component {
             <div className={"HeaderFooter"}>
               <p>АМИР - производитель бытовой электроники с вниманием к каждой детали </p>
             </div>
-
           </header>
+
           <div className={"ContainerBody"}>
-            <Catalogue
-                id={this.state.id}
-                array={this.state.catalogue}
-                onClick={this.CheckedHandler}
-                checked={this.state.checked}
-            />
+            <div>
+              <Catalogue
+                  id={this.state.id}
+                  array={this.state.catalogue}
+                  onClick={this.CheckedHandler}
+                  checked={this.state.checked}
+              />
+              <Menu/>
+              <footer className={"footer"}>
+                <div className={"Title"}> СЕО-текст</div>
+                <div className={"Description"}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+              </footer>
+            </div>
+
           </div>
+
+
+
         </div>
     );
   }
