@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3ae78975.css",
+    "main.js": "/portfolio/static/js/main.c8da7c3a.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Banner-Platinum1.jpg": "/portfolio/static/media/Banner-Platinum1.0b1540765b8c94c22e41.jpg",
+    "static/media/amir-23.png": "/portfolio/static/media/amir-23.8a5faff290c52310d096.png",
+    "static/media/menu_1.png": "/portfolio/static/media/menu_1.13883bbcdea44b593dc3.png",
+    "static/media/menu_2.png": "/portfolio/static/media/menu_2.9b7f78993164c0802d59.png",
+    "static/media/menu_4.png": "/portfolio/static/media/menu_4.09c073648baa999fbb10.png",
+    "static/media/menu_3.png": "/portfolio/static/media/menu_3.ba7c33f231846f7c287e.png",
+    "static/media/amir 2.7.png": "/portfolio/static/media/amir 2.7.4ec704bf1b2681a16d2f.png",
+    "index.html": "/portfolio/index.html",
+    "static/media/Polygon_down.svg": "/portfolio/static/media/Polygon_down.b968909e6e57d42b2cd109fc851a5266.svg",
+    "static/media/Polygon.svg": "/portfolio/static/media/Polygon.3189be0ddce15634013d0c8671996b58.svg",
+    "main.3ae78975.css.map": "/portfolio/static/css/main.3ae78975.css.map",
+    "main.c8da7c3a.js.map": "/portfolio/static/js/main.c8da7c3a.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ae78975.css",
+    "static/js/main.c8da7c3a.js"
+  ]
+}
